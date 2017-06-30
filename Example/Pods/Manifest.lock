@@ -1,0 +1,19 @@
+PODS:
+  - SRMCategory (0.1.0)
+  - SRMScannerView (0.1.0):
+    - SRMCategory
+
+DEPENDENCIES:
+  - SRMScannerView (from `../`)
+
+EXTERNAL SOURCES:
+  SRMScannerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SRMCategory: 49898fbcb142815014410c51e4f7f06ebdabe259
+  SRMScannerView: 32515d5af07091661bffe0ba5f25e8a12efda36b
+
+PODFILE CHECKSUM: 74ae53d530200aae477bf48c5115983511b073d4
+
+COCOAPODS: 1.2.1

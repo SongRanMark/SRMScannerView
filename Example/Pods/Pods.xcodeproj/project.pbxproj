@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B24F8A83771EB4068151C875BAC9AAE /* Pods-SRMScannerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789EABFEF0ABAFF233AD72054CB0BC4 /* Pods-SRMScannerView_Tests-dummy.m */; };
+		0EF313F7E0CCB115299CE6D033D2462A /* NSString+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AE80D8AB39BB75E5BFC1DC29C9DDF92B /* NSString+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1172FF93211D51D4EB3ACFB172D7A08C /* SRMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAAFC5565066BCE9FD7D5072966B7FE /* SRMScannerMaskView.m */; };
+		133CA5B921E57008E00B3D1C534F8B11 /* SRMCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246733DF689806834F96826A6A7FECFF /* SRMCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B30B23864B1C3CF29C588B82160B04C /* NSBundle+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FE313F6CDF09F90662C6E0FE070197EE /* NSBundle+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A11D2D88291D6D8157396A6BD69302 /* Pods-SRMScannerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3526E5E6D17A360574AF6C1813E9FE /* Pods-SRMScannerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F81A7BEEB5981A4BFE5E7655C27586 /* UIView+SRMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFBA7A14A67C65D6E55F9B0075D1B6 /* UIView+SRMFrame.m */; };
+		40616DEF4B496E52E92B51D273EC23A3 /* NSURL+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB65AC7F46B655DB7A2C84251EB20F86 /* NSURL+SRMExtension.m */; };
+		485909336FFEDABC5B75F2BBB75474D1 /* UIColor+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326DE477DE883079816AD532FF4A4BD /* UIColor+SRMExtension.m */; };
+		525632AB645988F9BDAFA2C10F97DB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */; };
+		548496E2DDDC2C56ABD5207251446453 /* UIView+SRMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7441B9A2D6537D9BC2C17D0B7550A /* UIView+SRMConstraint.m */; };
+		55D23DC94F6D590D101E3C998D1802CF /* UIScreen+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF09A51009CB80D63F78F0AAD44AE89 /* UIScreen+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BDF5C54B018654AE9FF870DD834B868 /* SRMCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924E0621C56C661F5F5AF54BAF0B21A /* SRMCategory-dummy.m */; };
+		741BB6C9427D2AFA73B86A6FBBAEB78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */; };
+		7CA32698F2D3D31C0BA4BB86B9D4A9AB /* UIViewController+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23E2634FE4495856AB6546FBD4809E /* UIViewController+SRMExtension.m */; };
+		82422CB9CCC39A4BC41BFCC8FF140633 /* NSString+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C7021A1AE2F963D72038ABB8699395 /* NSString+SRMExtension.m */; };
+		8A995CF11B02C7D40179733705F02F5A /* UIView+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDA64880C06D69050619E940546C2C2 /* UIView+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3B84E510E728D20032AD1C22FFF5C2 /* UIScreen+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A225060375B9A69621A415E685EBB0DB /* UIScreen+SRMExtension.m */; };
+		8F9DC1D61DE589960D71931FD94F438D /* UIView+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB19CCE45614055E37F2361271D48F5C /* UIView+SRMExtension.m */; };
+		93E9FAC8C012A91A59A7825F9A1C640A /* NSUserDefaults+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C323A8A5F2A07FD04BCF031AB21BCE45 /* NSUserDefaults+SRMExtension.m */; };
+		9647BC79B95D36A7875351F5C975AC0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */; };
+		9854340662794BBD1B1AE426021AEAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */; };
+		99A0EA03A8F384790DD79D0821E7BBA6 /* NSUserDefaults+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DA588A93E5724CF94E0F7ACEA2C7C504 /* NSUserDefaults+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7F6193883C913B90AA98AC28DB5684 /* UIColor+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDE905F7D69A1BFBC507889E288D752 /* UIColor+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4959201F11C75A1C013E8DFF268FEFF /* SRMScannerMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD02C5F6963BD66159316DD2692CCD5 /* SRMScannerMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6209D4E0C4470DBD0B9AB560EFD5258 /* Pods-SRMScannerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0E2893833A904E112303DA5BFBAF35 /* Pods-SRMScannerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97CD414D37A2275DED8BE054619F2A2 /* NSBundle+SRMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0078B3BF5644A7AD4010547C2ED8A8 /* NSBundle+SRMExtension.m */; };
+		B060A247322A4C93C9557200465EE864 /* SRMScannerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F589618EBF2B062E68E04AA9A4A6996 /* SRMScannerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B493F66A08FC5A0C8C0236252FDA5A6E /* NSURL+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 656A318706357006FA278D6856572F25 /* NSURL+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7808D478AE3325E70135784F76C1D71 /* SRMScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC16A207B4C1568A363AC5C688E23D3 /* SRMScannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA2656FCCCC17B38D84B4ECD891D9809 /* Pods-SRMScannerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9537DD432FE485D6B4943617E90D2 /* Pods-SRMScannerView_Example-dummy.m */; };
+		CE4BC9A50C5FE3EA8EC91498178CAB14 /* SRMScannerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC1606580F6298DB1054086E3D7A945 /* SRMScannerView-dummy.m */; };
+		D4ED795A780AA8AC249B1C80B25A3F5B /* UIView+SRMFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DD62EC69373465108771AD1B1A4A5B /* UIView+SRMFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D544AF8EF49BC2347A5DAD827B3C98B6 /* SRMCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF906BA67E54D21442C9A737476BF6D /* SRMCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4E838E4235DF1CD3D25F502393B179 /* SRMScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6354C12BDD67B2C5FC59027CB03A6 /* SRMScannerView.m */; };
+		ECF8DA1C049565F87CC9C4E536F87C55 /* UIView+SRMConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2974ECEC969B62903A7D4BBBD565FAD4 /* UIView+SRMConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F865CDD38D54294DE3E8C5853B77BB55 /* SRMScannerTargetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0049E55AC3E81BF6CA730CA8A3B4FB46 /* SRMScannerTargetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB90C99F4DF827A24FC5DC831108252E /* SRMScannerTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAED5E88DA399BDA6DCBD60B186A33B /* SRMScannerTargetView.m */; };
+		FC905431EBEF81EA88C0546031A35CEC /* UIViewController+SRMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF59610B88476BC21358C8ECA5DE2C5 /* UIViewController+SRMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB657A25BF3CABEF73724DB6DEA0168 /* SRMCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87578AD8DD1FA1766ECF1C537FFC2C98 /* SRMCategory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		724D7F9CF45CCD561A6AB6D9FDCA49E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31EBB9A70A3AF5E0922DD49FA2316FD;
+			remoteInfo = SRMCategory;
+		};
+		9577F53EBC4C1D1467BD4C655479FD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86D39D6DFFED79FC6993B33C4E6BC86D;
+			remoteInfo = SRMScannerView;
+		};
+		FED553B5E5BDD890A57AF3FFC198209E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31EBB9A70A3AF5E0922DD49FA2316FD;
+			remoteInfo = SRMCategory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0049E55AC3E81BF6CA730CA8A3B4FB46 /* SRMScannerTargetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRMScannerTargetView.h; sourceTree = "<group>"; };
+		0359DD89A9710706E487E91FB0A8F253 /* Pods_SRMScannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRMScannerView_Example.framework; path = "Pods-SRMScannerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0385E5CAED4301D3EFD5BF34E434B883 /* SRMScannerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRMScannerView.xcconfig; sourceTree = "<group>"; };
+		11424EB1ED58A694FB50F02D2093004E /* SRMCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRMCategory.framework; path = SRMCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F21EC06C70272867AEA0A6813E7A63 /* Pods-SRMScannerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SRMScannerView_Tests.modulemap"; sourceTree = "<group>"; };
+		1EDE905F7D69A1BFBC507889E288D752 /* UIColor+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SRMExtension.h"; path = "SRMCategory/Classes/UIKit/UIColor+SRMExtension.h"; sourceTree = "<group>"; };
+		1EF906BA67E54D21442C9A737476BF6D /* SRMCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRMCategory.h; path = SRMCategory/Classes/SRMCategory.h; sourceTree = "<group>"; };
+		20DD62EC69373465108771AD1B1A4A5B /* UIView+SRMFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SRMFrame.h"; path = "SRMCategory/Classes/UIKit/UIView+SRMFrame.h"; sourceTree = "<group>"; };
+		20E6354C12BDD67B2C5FC59027CB03A6 /* SRMScannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRMScannerView.m; sourceTree = "<group>"; };
+		23275B146855465046175B99F69F825F /* Pods-SRMScannerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMScannerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		246733DF689806834F96826A6A7FECFF /* SRMCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRMCategory-umbrella.h"; sourceTree = "<group>"; };
+		2974ECEC969B62903A7D4BBBD565FAD4 /* UIView+SRMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SRMConstraint.h"; path = "SRMCategory/Classes/UIKit/UIView+SRMConstraint.h"; sourceTree = "<group>"; };
+		2C23E2634FE4495856AB6546FBD4809E /* UIViewController+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SRMExtension.m"; path = "SRMCategory/Classes/UIKit/UIViewController+SRMExtension.m"; sourceTree = "<group>"; };
+		368906EF478C10146AE9A7E7FD1870F3 /* Pods-SRMScannerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMScannerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3924E0621C56C661F5F5AF54BAF0B21A /* SRMCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRMCategory-dummy.m"; sourceTree = "<group>"; };
+		39EA3C69B1D306B1E3303381C5EE4E95 /* SRMScannerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRMScannerView-prefix.pch"; sourceTree = "<group>"; };
+		3DFF910CD042B5C6F94999261C544598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA8C272CE25917672E9BF3D94993E6C /* Pods-SRMScannerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRMScannerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B0E2893833A904E112303DA5BFBAF35 /* Pods-SRMScannerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRMScannerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5326DE477DE883079816AD532FF4A4BD /* UIColor+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SRMExtension.m"; path = "SRMCategory/Classes/UIKit/UIColor+SRMExtension.m"; sourceTree = "<group>"; };
+		537787F793804F0624BE8BC78DE8BD9F /* SRMCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRMCategory-prefix.pch"; sourceTree = "<group>"; };
+		61D0B84A1AA6017116537C84FA3C185C /* Pods-SRMScannerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRMScannerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6232C93E503A0E1F8FE21D071215D850 /* Pods-SRMScannerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMScannerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		63B049FF740B681FFAE5CC931B3835C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656A318706357006FA278D6856572F25 /* NSURL+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SRMExtension.h"; path = "SRMCategory/Classes/Foundation/NSURL+SRMExtension.h"; sourceTree = "<group>"; };
+		65C9537DD432FE485D6B4943617E90D2 /* Pods-SRMScannerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRMScannerView_Example-dummy.m"; sourceTree = "<group>"; };
+		6789EABFEF0ABAFF233AD72054CB0BC4 /* Pods-SRMScannerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRMScannerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DC16A207B4C1568A363AC5C688E23D3 /* SRMScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRMScannerView.h; sourceTree = "<group>"; };
+		6EEA66577CDFB3BF7075F7AC4BDC11EC /* Pods-SRMScannerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRMScannerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75C7021A1AE2F963D72038ABB8699395 /* NSString+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SRMExtension.m"; path = "SRMCategory/Classes/Foundation/NSString+SRMExtension.m"; sourceTree = "<group>"; };
+		781D04ECC8CF72285EE24338222870E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F06A537ACE53968F992DEFBC84FBFE /* SRMScannerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SRMScannerView.modulemap; sourceTree = "<group>"; };
+		80153C3A90EA1481B586C7DBBBF9E572 /* Pods_SRMScannerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRMScannerView_Tests.framework; path = "Pods-SRMScannerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82123BB3EF4A4CCA44AA68993129982F /* SRMCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SRMCategory.modulemap; sourceTree = "<group>"; };
+		8555F1D999E6EF59CDE4AC26374967C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87578AD8DD1FA1766ECF1C537FFC2C98 /* SRMCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRMCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F589618EBF2B062E68E04AA9A4A6996 /* SRMScannerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRMScannerView-umbrella.h"; sourceTree = "<group>"; };
+		933408996B6E41A8BCE5733E6C5B6517 /* Pods-SRMScannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMScannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3526E5E6D17A360574AF6C1813E9FE /* Pods-SRMScannerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRMScannerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		9EDA64880C06D69050619E940546C2C2 /* UIView+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SRMExtension.h"; path = "SRMCategory/Classes/UIKit/UIView+SRMExtension.h"; sourceTree = "<group>"; };
+		A225060375B9A69621A415E685EBB0DB /* UIScreen+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+SRMExtension.m"; path = "SRMCategory/Classes/UIKit/UIScreen+SRMExtension.m"; sourceTree = "<group>"; };
+		A433747A75C11D040122F729C7ABFB82 /* SRMCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRMCategory.xcconfig; sourceTree = "<group>"; };
+		A7BEACAF9FE5E45C29F246C328A6D0D1 /* Pods-SRMScannerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SRMScannerView_Example.modulemap"; sourceTree = "<group>"; };
+		AAAED5E88DA399BDA6DCBD60B186A33B /* SRMScannerTargetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRMScannerTargetView.m; sourceTree = "<group>"; };
+		ABC1606580F6298DB1054086E3D7A945 /* SRMScannerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRMScannerView-dummy.m"; sourceTree = "<group>"; };
+		AE80D8AB39BB75E5BFC1DC29C9DDF92B /* NSString+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SRMExtension.h"; path = "SRMCategory/Classes/Foundation/NSString+SRMExtension.h"; sourceTree = "<group>"; };
+		B1F961326D5495D4BEE9FE9C64D6BEE0 /* Pods-SRMScannerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMScannerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB19CCE45614055E37F2361271D48F5C /* UIView+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SRMExtension.m"; path = "SRMCategory/Classes/UIKit/UIView+SRMExtension.m"; sourceTree = "<group>"; };
+		BCA84CDFCF433931E275B8CCE4C95FB4 /* SRMScannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRMScannerView.framework; path = SRMScannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C323A8A5F2A07FD04BCF031AB21BCE45 /* NSUserDefaults+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+SRMExtension.m"; path = "SRMCategory/Classes/Foundation/NSUserDefaults+SRMExtension.m"; sourceTree = "<group>"; };
+		CDD02C5F6963BD66159316DD2692CCD5 /* SRMScannerMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRMScannerMaskView.h; sourceTree = "<group>"; };
+		CFF7441B9A2D6537D9BC2C17D0B7550A /* UIView+SRMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SRMConstraint.m"; path = "SRMCategory/Classes/UIKit/UIView+SRMConstraint.m"; sourceTree = "<group>"; };
+		D68C0C853ED176630E1289B75627B5E6 /* Pods-SRMScannerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRMScannerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA588A93E5724CF94E0F7ACEA2C7C504 /* NSUserDefaults+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+SRMExtension.h"; path = "SRMCategory/Classes/Foundation/NSUserDefaults+SRMExtension.h"; sourceTree = "<group>"; };
+		E3331F0B9A74BD9EBAE2B54F7F8B5F0D /* Pods-SRMScannerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMScannerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EAF09A51009CB80D63F78F0AAD44AE89 /* UIScreen+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+SRMExtension.h"; path = "SRMCategory/Classes/UIKit/UIScreen+SRMExtension.h"; sourceTree = "<group>"; };
+		EBAAFC5565066BCE9FD7D5072966B7FE /* SRMScannerMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRMScannerMaskView.m; sourceTree = "<group>"; };
+		EE0078B3BF5644A7AD4010547C2ED8A8 /* NSBundle+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SRMExtension.m"; path = "SRMCategory/Classes/Foundation/NSBundle+SRMExtension.m"; sourceTree = "<group>"; };
+		F3C0E47CA3D73D54C5717C7CE5DBD1A9 /* Pods-SRMScannerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRMScannerView_Example-resources.sh"; sourceTree = "<group>"; };
+		FB65AC7F46B655DB7A2C84251EB20F86 /* NSURL+SRMExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SRMExtension.m"; path = "SRMCategory/Classes/Foundation/NSURL+SRMExtension.m"; sourceTree = "<group>"; };
+		FBF59610B88476BC21358C8ECA5DE2C5 /* UIViewController+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SRMExtension.h"; path = "SRMCategory/Classes/UIKit/UIViewController+SRMExtension.h"; sourceTree = "<group>"; };
+		FDCFBA7A14A67C65D6E55F9B0075D1B6 /* UIView+SRMFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SRMFrame.m"; path = "SRMCategory/Classes/UIKit/UIView+SRMFrame.m"; sourceTree = "<group>"; };
+		FE313F6CDF09F90662C6E0FE070197EE /* NSBundle+SRMExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SRMExtension.h"; path = "SRMCategory/Classes/Foundation/NSBundle+SRMExtension.h"; sourceTree = "<group>"; };
+		FEC39FEB2D8CF13AA6BA8AB26AE00B77 /* Pods-SRMScannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRMScannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2441AE459FEEEC54D61AABAB338099EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525632AB645988F9BDAFA2C10F97DB9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F97F65D6CF5890DAE492C0D9F4FCE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9854340662794BBD1B1AE426021AEAEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B34FE61ECFE5707CC409970B7767C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9647BC79B95D36A7875351F5C975AC0C /* Foundation.framework in Frameworks */,
+				FEB657A25BF3CABEF73724DB6DEA0168 /* SRMCategory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77EAD2A70360B5215C57AFCCBFCAAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741BB6C9427D2AFA73B86A6FBBAEB78F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0208F40A819C7F2798B7E9808B3D8EB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				781D04ECC8CF72285EE24338222870E4 /* Info.plist */,
+				82123BB3EF4A4CCA44AA68993129982F /* SRMCategory.modulemap */,
+				A433747A75C11D040122F729C7ABFB82 /* SRMCategory.xcconfig */,
+				3924E0621C56C661F5F5AF54BAF0B21A /* SRMCategory-dummy.m */,
+				537787F793804F0624BE8BC78DE8BD9F /* SRMCategory-prefix.pch */,
+				246733DF689806834F96826A6A7FECFF /* SRMCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRMCategory";
+			sourceTree = "<group>";
+		};
+		038FBF748717C1D832F2978C79402CD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDD02C5F6963BD66159316DD2692CCD5 /* SRMScannerMaskView.h */,
+				EBAAFC5565066BCE9FD7D5072966B7FE /* SRMScannerMaskView.m */,
+				0049E55AC3E81BF6CA730CA8A3B4FB46 /* SRMScannerTargetView.h */,
+				AAAED5E88DA399BDA6DCBD60B186A33B /* SRMScannerTargetView.m */,
+				6DC16A207B4C1568A363AC5C688E23D3 /* SRMScannerView.h */,
+				20E6354C12BDD67B2C5FC59027CB03A6 /* SRMScannerView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		074A5017AD7F29D4932F470767A0EA23 /* Pods-SRMScannerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFF910CD042B5C6F94999261C544598 /* Info.plist */,
+				12F21EC06C70272867AEA0A6813E7A63 /* Pods-SRMScannerView_Tests.modulemap */,
+				3EA8C272CE25917672E9BF3D94993E6C /* Pods-SRMScannerView_Tests-acknowledgements.markdown */,
+				D68C0C853ED176630E1289B75627B5E6 /* Pods-SRMScannerView_Tests-acknowledgements.plist */,
+				6789EABFEF0ABAFF233AD72054CB0BC4 /* Pods-SRMScannerView_Tests-dummy.m */,
+				E3331F0B9A74BD9EBAE2B54F7F8B5F0D /* Pods-SRMScannerView_Tests-frameworks.sh */,
+				368906EF478C10146AE9A7E7FD1870F3 /* Pods-SRMScannerView_Tests-resources.sh */,
+				4B0E2893833A904E112303DA5BFBAF35 /* Pods-SRMScannerView_Tests-umbrella.h */,
+				933408996B6E41A8BCE5733E6C5B6517 /* Pods-SRMScannerView_Tests.debug.xcconfig */,
+				6232C93E503A0E1F8FE21D071215D850 /* Pods-SRMScannerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-SRMScannerView_Tests";
+			path = "Target Support Files/Pods-SRMScannerView_Tests";
+			sourceTree = "<group>";
+		};
+		21ECA6DDC8B765E3EE0C763522EB96E2 /* SRMScannerView */ = {
+			isa = PBXGroup;
+			children = (
+				C2EF4306BCE96F235CC80A5475DCBAB9 /* SRMScannerView */,
+				C5CF6A755570945E76118B1A5AA0E050 /* Support Files */,
+			);
+			name = SRMScannerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		400D25CB2ECDFDDB933AC5E9E9DFD7DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0359DD89A9710706E487E91FB0A8F253 /* Pods_SRMScannerView_Example.framework */,
+				80153C3A90EA1481B586C7DBBBF9E572 /* Pods_SRMScannerView_Tests.framework */,
+				11424EB1ED58A694FB50F02D2093004E /* SRMCategory.framework */,
+				BCA84CDFCF433931E275B8CCE4C95FB4 /* SRMScannerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F8BABBB7E8BA3E8F566301D9D6E655 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFE61A17A2A2F426DB5909893B459C28 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D149FFEBD2DA661939F5B3CE5E67D8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87578AD8DD1FA1766ECF1C537FFC2C98 /* SRMCategory.framework */,
+				49F8BABBB7E8BA3E8F566301D9D6E655 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D4E12960EDB35F34E6D9EFC55293EB11 /* Development Pods */,
+				4D149FFEBD2DA661939F5B3CE5E67D8F /* Frameworks */,
+				8E16C25154D87C0E25A4A704FBA44E9A /* Pods */,
+				400D25CB2ECDFDDB933AC5E9E9DFD7DF /* Products */,
+				DBE2B5969EB9045E476733C7717CC40E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E16C25154D87C0E25A4A704FBA44E9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3B0DF9658184E2F7539935E2537B3BC /* SRMCategory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3B0DF9658184E2F7539935E2537B3BC /* SRMCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FE313F6CDF09F90662C6E0FE070197EE /* NSBundle+SRMExtension.h */,
+				EE0078B3BF5644A7AD4010547C2ED8A8 /* NSBundle+SRMExtension.m */,
+				AE80D8AB39BB75E5BFC1DC29C9DDF92B /* NSString+SRMExtension.h */,
+				75C7021A1AE2F963D72038ABB8699395 /* NSString+SRMExtension.m */,
+				656A318706357006FA278D6856572F25 /* NSURL+SRMExtension.h */,
+				FB65AC7F46B655DB7A2C84251EB20F86 /* NSURL+SRMExtension.m */,
+				DA588A93E5724CF94E0F7ACEA2C7C504 /* NSUserDefaults+SRMExtension.h */,
+				C323A8A5F2A07FD04BCF031AB21BCE45 /* NSUserDefaults+SRMExtension.m */,
+				1EF906BA67E54D21442C9A737476BF6D /* SRMCategory.h */,
+				1EDE905F7D69A1BFBC507889E288D752 /* UIColor+SRMExtension.h */,
+				5326DE477DE883079816AD532FF4A4BD /* UIColor+SRMExtension.m */,
+				EAF09A51009CB80D63F78F0AAD44AE89 /* UIScreen+SRMExtension.h */,
+				A225060375B9A69621A415E685EBB0DB /* UIScreen+SRMExtension.m */,
+				2974ECEC969B62903A7D4BBBD565FAD4 /* UIView+SRMConstraint.h */,
+				CFF7441B9A2D6537D9BC2C17D0B7550A /* UIView+SRMConstraint.m */,
+				9EDA64880C06D69050619E940546C2C2 /* UIView+SRMExtension.h */,
+				BB19CCE45614055E37F2361271D48F5C /* UIView+SRMExtension.m */,
+				20DD62EC69373465108771AD1B1A4A5B /* UIView+SRMFrame.h */,
+				FDCFBA7A14A67C65D6E55F9B0075D1B6 /* UIView+SRMFrame.m */,
+				FBF59610B88476BC21358C8ECA5DE2C5 /* UIViewController+SRMExtension.h */,
+				2C23E2634FE4495856AB6546FBD4809E /* UIViewController+SRMExtension.m */,
+				0208F40A819C7F2798B7E9808B3D8EB2 /* Support Files */,
+			);
+			name = SRMCategory;
+			path = SRMCategory;
+			sourceTree = "<group>";
+		};
+		C2EF4306BCE96F235CC80A5475DCBAB9 /* SRMScannerView */ = {
+			isa = PBXGroup;
+			children = (
+				038FBF748717C1D832F2978C79402CD5 /* Classes */,
+			);
+			name = SRMScannerView;
+			path = SRMScannerView;
+			sourceTree = "<group>";
+		};
+		C4EE83BAF2A2B190FB095212D2EB4A06 /* Pods-SRMScannerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8555F1D999E6EF59CDE4AC26374967C4 /* Info.plist */,
+				A7BEACAF9FE5E45C29F246C328A6D0D1 /* Pods-SRMScannerView_Example.modulemap */,
+				6EEA66577CDFB3BF7075F7AC4BDC11EC /* Pods-SRMScannerView_Example-acknowledgements.markdown */,
+				61D0B84A1AA6017116537C84FA3C185C /* Pods-SRMScannerView_Example-acknowledgements.plist */,
+				65C9537DD432FE485D6B4943617E90D2 /* Pods-SRMScannerView_Example-dummy.m */,
+				B1F961326D5495D4BEE9FE9C64D6BEE0 /* Pods-SRMScannerView_Example-frameworks.sh */,
+				F3C0E47CA3D73D54C5717C7CE5DBD1A9 /* Pods-SRMScannerView_Example-resources.sh */,
+				9E3526E5E6D17A360574AF6C1813E9FE /* Pods-SRMScannerView_Example-umbrella.h */,
+				23275B146855465046175B99F69F825F /* Pods-SRMScannerView_Example.debug.xcconfig */,
+				FEC39FEB2D8CF13AA6BA8AB26AE00B77 /* Pods-SRMScannerView_Example.release.xcconfig */,
+			);
+			name = "Pods-SRMScannerView_Example";
+			path = "Target Support Files/Pods-SRMScannerView_Example";
+			sourceTree = "<group>";
+		};
+		C5CF6A755570945E76118B1A5AA0E050 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B049FF740B681FFAE5CC931B3835C2 /* Info.plist */,
+				79F06A537ACE53968F992DEFBC84FBFE /* SRMScannerView.modulemap */,
+				0385E5CAED4301D3EFD5BF34E434B883 /* SRMScannerView.xcconfig */,
+				ABC1606580F6298DB1054086E3D7A945 /* SRMScannerView-dummy.m */,
+				39EA3C69B1D306B1E3303381C5EE4E95 /* SRMScannerView-prefix.pch */,
+				8F589618EBF2B062E68E04AA9A4A6996 /* SRMScannerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SRMScannerView";
+			sourceTree = "<group>";
+		};
+		D4E12960EDB35F34E6D9EFC55293EB11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21ECA6DDC8B765E3EE0C763522EB96E2 /* SRMScannerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DBE2B5969EB9045E476733C7717CC40E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EE83BAF2A2B190FB095212D2EB4A06 /* Pods-SRMScannerView_Example */,
+				074A5017AD7F29D4932F470767A0EA23 /* Pods-SRMScannerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FD97356C0ADAE2C4F80ECB76EAA0EA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4959201F11C75A1C013E8DFF268FEFF /* SRMScannerMaskView.h in Headers */,
+				F865CDD38D54294DE3E8C5853B77BB55 /* SRMScannerTargetView.h in Headers */,
+				B060A247322A4C93C9557200465EE864 /* SRMScannerView-umbrella.h in Headers */,
+				B7808D478AE3325E70135784F76C1D71 /* SRMScannerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7811542D0F49153F130064782D991D5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B30B23864B1C3CF29C588B82160B04C /* NSBundle+SRMExtension.h in Headers */,
+				0EF313F7E0CCB115299CE6D033D2462A /* NSString+SRMExtension.h in Headers */,
+				B493F66A08FC5A0C8C0236252FDA5A6E /* NSURL+SRMExtension.h in Headers */,
+				99A0EA03A8F384790DD79D0821E7BBA6 /* NSUserDefaults+SRMExtension.h in Headers */,
+				133CA5B921E57008E00B3D1C534F8B11 /* SRMCategory-umbrella.h in Headers */,
+				D544AF8EF49BC2347A5DAD827B3C98B6 /* SRMCategory.h in Headers */,
+				9F7F6193883C913B90AA98AC28DB5684 /* UIColor+SRMExtension.h in Headers */,
+				55D23DC94F6D590D101E3C998D1802CF /* UIScreen+SRMExtension.h in Headers */,
+				ECF8DA1C049565F87CC9C4E536F87C55 /* UIView+SRMConstraint.h in Headers */,
+				8A995CF11B02C7D40179733705F02F5A /* UIView+SRMExtension.h in Headers */,
+				D4ED795A780AA8AC249B1C80B25A3F5B /* UIView+SRMFrame.h in Headers */,
+				FC905431EBEF81EA88C0546031A35CEC /* UIViewController+SRMExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B602800CF3DFD6964EF2AA2E5A72A65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A11D2D88291D6D8157396A6BD69302 /* Pods-SRMScannerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB853076BC3CA1983FE0F378F989E404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6209D4E0C4470DBD0B9AB560EFD5258 /* Pods-SRMScannerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86D39D6DFFED79FC6993B33C4E6BC86D /* SRMScannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF141EE13AFAB2FD932850D9D26DA6E3 /* Build configuration list for PBXNativeTarget "SRMScannerView" */;
+			buildPhases = (
+				4FB47EFA72D5E2328DE297A2E7428C23 /* Sources */,
+				9B34FE61ECFE5707CC409970B7767C9B /* Frameworks */,
+				2FD97356C0ADAE2C4F80ECB76EAA0EA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F9AE55847108D07B003783E51D3F38 /* PBXTargetDependency */,
+			);
+			name = SRMScannerView;
+			productName = SRMScannerView;
+			productReference = BCA84CDFCF433931E275B8CCE4C95FB4 /* SRMScannerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8809854DBF21A861C5ABDB9772FFF3D1 /* Pods-SRMScannerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25ABC19408FA4B1B43BB99B85D7AD50 /* Build configuration list for PBXNativeTarget "Pods-SRMScannerView_Example" */;
+			buildPhases = (
+				CEFA0A1187F2779E3FF084EED4DB0717 /* Sources */,
+				B77EAD2A70360B5215C57AFCCBFCAAFD /* Frameworks */,
+				7B602800CF3DFD6964EF2AA2E5A72A65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F821E3526B9FC161B1505AF6DA0DC4E6 /* PBXTargetDependency */,
+				1646899B782172E68230632087413041 /* PBXTargetDependency */,
+			);
+			name = "Pods-SRMScannerView_Example";
+			productName = "Pods-SRMScannerView_Example";
+			productReference = 0359DD89A9710706E487E91FB0A8F253 /* Pods_SRMScannerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B48BAF61FA339FE73EEAD4EB4826A4BF /* Pods-SRMScannerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E6B3EA2EFEE70481B0C83A7110CEB /* Build configuration list for PBXNativeTarget "Pods-SRMScannerView_Tests" */;
+			buildPhases = (
+				4F33749A63AF287E723190ACD2A3D0E8 /* Sources */,
+				3F97F65D6CF5890DAE492C0D9F4FCE2E /* Frameworks */,
+				AB853076BC3CA1983FE0F378F989E404 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SRMScannerView_Tests";
+			productName = "Pods-SRMScannerView_Tests";
+			productReference = 80153C3A90EA1481B586C7DBBBF9E572 /* Pods_SRMScannerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F31EBB9A70A3AF5E0922DD49FA2316FD /* SRMCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B99C45C1EF3D364CB37BFB78D35AB3A /* Build configuration list for PBXNativeTarget "SRMCategory" */;
+			buildPhases = (
+				9759504D231741C7F0140F7B7A1C1CB1 /* Sources */,
+				2441AE459FEEEC54D61AABAB338099EA /* Frameworks */,
+				7811542D0F49153F130064782D991D5C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRMCategory;
+			productName = SRMCategory;
+			productReference = 11424EB1ED58A694FB50F02D2093004E /* SRMCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 400D25CB2ECDFDDB933AC5E9E9DFD7DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8809854DBF21A861C5ABDB9772FFF3D1 /* Pods-SRMScannerView_Example */,
+				B48BAF61FA339FE73EEAD4EB4826A4BF /* Pods-SRMScannerView_Tests */,
+				F31EBB9A70A3AF5E0922DD49FA2316FD /* SRMCategory */,
+				86D39D6DFFED79FC6993B33C4E6BC86D /* SRMScannerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F33749A63AF287E723190ACD2A3D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B24F8A83771EB4068151C875BAC9AAE /* Pods-SRMScannerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB47EFA72D5E2328DE297A2E7428C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1172FF93211D51D4EB3ACFB172D7A08C /* SRMScannerMaskView.m in Sources */,
+				FB90C99F4DF827A24FC5DC831108252E /* SRMScannerTargetView.m in Sources */,
+				CE4BC9A50C5FE3EA8EC91498178CAB14 /* SRMScannerView-dummy.m in Sources */,
+				EA4E838E4235DF1CD3D25F502393B179 /* SRMScannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9759504D231741C7F0140F7B7A1C1CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97CD414D37A2275DED8BE054619F2A2 /* NSBundle+SRMExtension.m in Sources */,
+				82422CB9CCC39A4BC41BFCC8FF140633 /* NSString+SRMExtension.m in Sources */,
+				40616DEF4B496E52E92B51D273EC23A3 /* NSURL+SRMExtension.m in Sources */,
+				93E9FAC8C012A91A59A7825F9A1C640A /* NSUserDefaults+SRMExtension.m in Sources */,
+				6BDF5C54B018654AE9FF870DD834B868 /* SRMCategory-dummy.m in Sources */,
+				485909336FFEDABC5B75F2BBB75474D1 /* UIColor+SRMExtension.m in Sources */,
+				8E3B84E510E728D20032AD1C22FFF5C2 /* UIScreen+SRMExtension.m in Sources */,
+				548496E2DDDC2C56ABD5207251446453 /* UIView+SRMConstraint.m in Sources */,
+				8F9DC1D61DE589960D71931FD94F438D /* UIView+SRMExtension.m in Sources */,
+				31F81A7BEEB5981A4BFE5E7655C27586 /* UIView+SRMFrame.m in Sources */,
+				7CA32698F2D3D31C0BA4BB86B9D4A9AB /* UIViewController+SRMExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA0A1187F2779E3FF084EED4DB0717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2656FCCCC17B38D84B4ECD891D9809 /* Pods-SRMScannerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1646899B782172E68230632087413041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRMScannerView;
+			target = 86D39D6DFFED79FC6993B33C4E6BC86D /* SRMScannerView */;
+			targetProxy = 9577F53EBC4C1D1467BD4C655479FD4F /* PBXContainerItemProxy */;
+		};
+		B0F9AE55847108D07B003783E51D3F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRMCategory;
+			target = F31EBB9A70A3AF5E0922DD49FA2316FD /* SRMCategory */;
+			targetProxy = 724D7F9CF45CCD561A6AB6D9FDCA49E8 /* PBXContainerItemProxy */;
+		};
+		F821E3526B9FC161B1505AF6DA0DC4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRMCategory;
+			target = F31EBB9A70A3AF5E0922DD49FA2316FD /* SRMCategory */;
+			targetProxy = FED553B5E5BDD890A57AF3FFC198209E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11404D2349667FA416AB23787E2D43DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6232C93E503A0E1F8FE21D071215D850 /* Pods-SRMScannerView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMScannerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMScannerView_Tests/Pods-SRMScannerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMScannerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B9FD1703D8D862D39FFA536382B4047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933408996B6E41A8BCE5733E6C5B6517 /* Pods-SRMScannerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMScannerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMScannerView_Tests/Pods-SRMScannerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMScannerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6448BD6B6FB00681BB60241805F431EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC39FEB2D8CF13AA6BA8AB26AE00B77 /* Pods-SRMScannerView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMScannerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMScannerView_Example/Pods-SRMScannerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMScannerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9024487C460694E256C8839150EA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0385E5CAED4301D3EFD5BF34E434B883 /* SRMScannerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRMScannerView/SRMScannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRMScannerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRMScannerView/SRMScannerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SRMScannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94FBDEC51D310D86EDE3FE3542A34CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A433747A75C11D040122F729C7ABFB82 /* SRMCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRMCategory/SRMCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRMCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRMCategory/SRMCategory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SRMCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1182E0CAE6AB3788CD86EBDEC12EDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23275B146855465046175B99F69F825F /* Pods-SRMScannerView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SRMScannerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRMScannerView_Example/Pods-SRMScannerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SRMScannerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2122D9961D56A30C22648EC266F49D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A433747A75C11D040122F729C7ABFB82 /* SRMCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRMCategory/SRMCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRMCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRMCategory/SRMCategory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SRMCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5A436DC7AA5CF8B697746E43FC28F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0385E5CAED4301D3EFD5BF34E434B883 /* SRMScannerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRMScannerView/SRMScannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRMScannerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRMScannerView/SRMScannerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SRMScannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B99C45C1EF3D364CB37BFB78D35AB3A /* Build configuration list for PBXNativeTarget "SRMCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2122D9961D56A30C22648EC266F49D4 /* Debug */,
+				94FBDEC51D310D86EDE3FE3542A34CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25ABC19408FA4B1B43BB99B85D7AD50 /* Build configuration list for PBXNativeTarget "Pods-SRMScannerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1182E0CAE6AB3788CD86EBDEC12EDFD /* Debug */,
+				6448BD6B6FB00681BB60241805F431EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E6B3EA2EFEE70481B0C83A7110CEB /* Build configuration list for PBXNativeTarget "Pods-SRMScannerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9FD1703D8D862D39FFA536382B4047 /* Debug */,
+				11404D2349667FA416AB23787E2D43DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF141EE13AFAB2FD932850D9D26DA6E3 /* Build configuration list for PBXNativeTarget "SRMScannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A436DC7AA5CF8B697746E43FC28F65 /* Debug */,
+				8C9024487C460694E256C8839150EA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

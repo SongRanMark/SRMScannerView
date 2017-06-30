@@ -1,0 +1,6 @@
+framework module SRMScannerView {
+  umbrella header "SRMScannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

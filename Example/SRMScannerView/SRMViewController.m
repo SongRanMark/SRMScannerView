@@ -7,23 +7,36 @@
 //
 
 #import "SRMViewController.h"
+#import "SRMScannerView.h"
+#import "UIView+SRMFrame.h"
+#import "UIScreen+SRMExtension.h"
 
-@interface SRMViewController ()
+@interface SRMViewController () <SRMScannerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet SRMScannerView *scannerView;
 
 @end
 
 @implementation SRMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.scannerView.scanRect = [self scanRect];
+    self.scannerView.delegate = self;
+    [self.scannerView startScanning];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)scannerView:(SRMScannerView *)scannerView didCaptureResult:(NSString *)result {
+    NSLog(@"%@", result);
+}
+
+- (CGRect)scanRect {
+    CGFloat width = [UIScreen srm_mainWidth] / 2;
+    CGFloat height = width;
+    CGFloat originX = ([UIScreen srm_mainWidth] - width) / 2;
+    CGFloat originY = ([UIScreen srm_mainHeight] - height) / 2;
+
+    return CGRectMake(originX, originY, width, height);
 }
 
 @end

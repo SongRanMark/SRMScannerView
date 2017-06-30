@@ -1,0 +1,6 @@
+framework module Pods_SRMScannerView_Example {
+  umbrella header "Pods-SRMScannerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

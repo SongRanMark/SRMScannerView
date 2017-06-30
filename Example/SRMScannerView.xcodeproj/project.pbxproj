@@ -40,7 +40,7 @@
 		17F35847CF4F513E163CCE08 /* Pods-SRMScannerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRMScannerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRMScannerView_Tests/Pods-SRMScannerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D120E39334A801032EA7D11 /* Pods-SRMScannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRMScannerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRMScannerView_Example/Pods-SRMScannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3063D5B8C699F453C3AFAB6A /* Pods-SRMScannerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRMScannerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRMScannerView_Example/Pods-SRMScannerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3A6F939F6BFA8E71AE0A09B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3A6F939F6BFA8E71AE0A09B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54D20D3075555D4126B447A8 /* Pods_SRMScannerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRMScannerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5580BA03CA4EFFAA0563913F /* Pods_SRMScannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRMScannerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SRMScannerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRMScannerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E7E261FA9DDD3F90594BED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E7E261FA9DDD3F90594BED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		734D23FAB00F331D3DB39A9C /* SRMScannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SRMScannerView.podspec; path = ../SRMScannerView.podspec; sourceTree = "<group>"; };
+		734D23FAB00F331D3DB39A9C /* SRMScannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRMScannerView.podspec; path = ../SRMScannerView.podspec; sourceTree = "<group>"; };
 		79B538005C11D017242BAFE6 /* Pods-SRMScannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRMScannerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRMScannerView_Tests/Pods-SRMScannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = githubsr;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S6G597V837;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = 3063D5B8C699F453C3AFAB6A /* Pods-SRMScannerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6G597V837;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRMScannerView/SRMScannerView-Prefix.pch";
 				INFOPLIST_FILE = "SRMScannerView/SRMScannerView-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 2D120E39334A801032EA7D11 /* Pods-SRMScannerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6G597V837;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRMScannerView/SRMScannerView-Prefix.pch";
 				INFOPLIST_FILE = "SRMScannerView/SRMScannerView-Info.plist";

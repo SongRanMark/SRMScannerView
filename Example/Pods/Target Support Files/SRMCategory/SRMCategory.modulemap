@@ -1,0 +1,6 @@
+framework module SRMCategory {
+  umbrella header "SRMCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
