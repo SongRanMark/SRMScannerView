@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SRMScannerView_Example' do
+  pod 'SRMScannerView', :path => '../'
+
+  target 'SRMScannerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
